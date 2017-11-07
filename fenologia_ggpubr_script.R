@@ -1,5 +1,6 @@
 head(fenologia)
 str(fenologia)
+#### ennesima prova #######
 
 ggplot(fenologia$VB, aes(as.factor(YEAR), value)) + 
   geom_violin(aes(colour=variable)) + geom_jitter(aes(colour=variable), alpha=0.3,width = 0.25) + ggtitle("VB x Year") + 
